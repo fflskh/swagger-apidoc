@@ -1,0 +1,8 @@
+{
+  "port": "7001",
+  "title": "Web APIs",
+  "version": "1.0.0",
+  "description": "Specification of web APIs",
+  "docBasePath": "生成swagger doc的源文件路径，绝对路径",
+  "docBasePath": "/Users/liuhao/Project/uyun-apis/app/router"
+}
