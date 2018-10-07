@@ -16,7 +16,8 @@ const swaggerDocs = swagger.getSwaggerDocs({
     title: config.title,
     version: config.version,
     description: config.description,
-    docBasePath: config.docBasePath
+    docBasePath: config.docBasePath,
+    definitionPath: config.definitionPath
 });
 
 app.use(serve('swagger-ui'));

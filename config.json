@@ -3,6 +3,8 @@
   "title": "Web APIs",
   "version": "1.0.0",
   "description": "Specification of web APIs",
-  "docBasePath": "生成swagger doc的源文件路径，绝对路径",
-  "docBasePath": "/Users/liuhao/Project/uyun-apis/app/router"
+  "docBasePath": "生成swagger doc的描述文件路径，绝对路径",
+  "docBasePath": "/Users/liuhao/Project/swagger-apidoc/test/routers",
+  "definitionPath": "生成swagger doc的reference文件路径",
+  "definitionPath": "/Users/liuhao/Project/swagger-apidoc/test/docs/swagger-references"
 }
