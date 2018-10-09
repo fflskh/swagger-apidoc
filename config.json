@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Specification of web APIs",
   "docBasePath": "生成swagger doc的描述文件路径，绝对路径",
-  "docBasePath": "/Users/liuhao/Project/swagger-apidoc/test/routers",
+  "docBasePath": "/absolute/path/to/routers",
   "definitionPath": "生成swagger doc的reference文件路径",
-  "definitionPath": "/Users/liuhao/Project/swagger-apidoc/test/docs/swagger-references"
+  "definitionPath": "/absolute/path/to/routers/definitions"
 }
