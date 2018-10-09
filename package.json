@@ -4,6 +4,7 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "swagger-jsdoc": "^3.2.3",
-    "swagger-ui": "^3.19.2"
+    "swagger-ui": "^3.19.2",
+    "yamljs": "^0.3.0"
   }
 }
