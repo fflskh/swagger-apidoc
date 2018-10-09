@@ -20,6 +20,11 @@ const swaggerDocs = swagger.getSwaggerDocs({
     definitionPath: config.definitionPath
 });
 
+app.use(async (ctx, next) => {
+    console.log(`request-ip=${ctx.ip}, request-line: "${ctx.method} ${ctx.originalUrl}  ${ctx.protocol.toUpperCase()}/${ctx.req.httpVersion}"`);
+    await next();
+});
+
 app.use(serve('swagger-ui'));
 
 //这个path不能修改，swagger首页会访问这个path
